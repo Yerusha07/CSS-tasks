@@ -1,0 +1,63 @@
+*Css can be load at any part of the html.
+
+NOTE: Only use rel=**stylesheet** it is default
+
+# Properties:
+
+1. Text-align : center/left/right/justify/start/;
+   color: color name;
+
+2. text-decoration-line: line-through/overline/underline/none; (strike)
+
+text-decoration-color:(change the underline color)
+text-decoration-style: solid/dashed/wavy/double.
+text-decoration-thickness; 2px;
+
+# Short-hand property:
+
+##### text-decoration: underline color double 1px;
+
+*To remove the line text-decoration-none;
+
+3. text-transform: uppercase/lowercase/capitalize/none;
+
+4. text-shadow: 3 px 0px 2px (right, top-bottom, blur, 2px 2px 3 px green (multiple shadows)) color
+
+5. letter-spacing: 2px -2px ;(letter spacing, decreasing space.)
+
+6. Word-spacing: 5px; ( word spacing )
+
+7. text-indent: 10px; (space on the beginning of the paragraph)( work for block level elements)
+
+8. line-height: ; ( line between words)
+
+comment <out-> for HJHTML <!---->
+For css - /*----*/
+
+---------------------------------------------------
+
+**To style particular paragraph :**
+
+we use ID-- represents #(ID selector):
+using element-- element selector.
+
+To style for 2 paragraphs at same style:
+
+We use Class --represents . (class selector);
+
+Inline css has the highest priority
+Id- will have more priority than class 
+Class- will have more priority than elements.
+-------------------------------------------------------------
+
+# CSS selectors:
+
+1. CSS element selector--Element tag name
+2. CSS ID selector--#IDname
+3. CSS Class selector---.classname
+4. CSS Universal selector--*(selects all HTML elements)
+5. CSS grouping selector--(selects all the HTML elements with same style)
+6. Css element.class-- p.intro( selects only p elements with class into)
+7. css element,element--div, p (Selects all <div>, p elements )
+
+
