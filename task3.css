@@ -12,4 +12,9 @@ pre{
         text-decoration-line:line-through;
     
     }
+
+    span{
+        text-decoration-line: underline overline
+        
+    }
   
