@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./task1.css">
+</head>
+<body><div>
+    <table id="id1">
+        <tr>
+           <th>Selector</th>
+           <th>Example</th>
+           <th>Example description</th></tr>
+           
+           <tr>
+           <td> Element</td>
+           <td>p</td>
+           <td> Selects all &lt;p&gt; elements</td></tr>
+   
+           <tr>
+               <td>Universal</td>
+               <td>*</td>
+               <td>The universal selector (*) selects all HTML elements on the page.</td>         
+           
+           </tr>
+       <tr>
+           <td>Grouping</td>
+           <td>h1, h2, p</td>
+           <td>The grouping selector selects all the HTML elements with the same style definitions.</td> 
+   </tr>    
+   
+       <tr>
+           <td>ID</td>
+           <td>#firstname</td>
+           <td>Selects the element with id="firstname"</td>         
+           </tr> 
+   
+           <tr> 
+               <td>Descendant Selector</td>
+               <td>
+                   div p {
+                   background-color: yellow;
+                 }</td>
+               <td>The descendant selector matches all elements that are descendants of a specified element.  </td>
+           </tr>
+          
+           <tr>
+               <td>Child Selector</td> 
+               <td>div > p {
+                   background-color: yellow;
+                 }
+                 </td>
+               <td>The child selector selects all elements that are the children of a specified element.
+               </td>         
+           </tr> 
+              <tr>
+              <td>Element.Class</td>
+               <td>p.intro	</td>
+               <td>Selects only &lt;p&gt; elements with class="intro"
+               </td>       
+               </tr>     
+              <tr>           
+               <td>Class</td>
+               <td>.intro</td>
+               <td>Selects all elements with class="intro"</td>           
+           </tr>
+           <td>Adjacent sibiling selector(+)</td>
+           <td>	div + p</td>
+           <td>Selects the first <p> element that are placed immediately after <div> elements</td>
+            <tr>
+                <td>General Sibling selector(~)</td>
+                <td>p ~ ul</td>
+                <td>Selects every <ul> element that are preceded by a <p> element
+                </td>
+            </tr>
+                </tr>
+            </table><br>
+        </div>
+        <h1>CSS Attribute Selectors </h1>
+         <table>
+            <tr>
+                <th>Selector</th>
+                <th>Example</th>
+                <th>Example description</th>
+              </tr>
+              <tr>
+                <td>CSS [attribute] Selector
+                </td>
+                <td>[target]</td>
+                <td>Selects all elements with a target attribute</td>
+              </tr>
+              <tr>
+                <td>CSS [attribute="value"] Selector
+                </td>
+                <td>[target="_blank"]</td>
+                <td>Selects all elements with target="_blank"
+                </td>
+              </tr>
+              <tr>
+                <td>CSS [attribute~="value"] Selector
+                </td>
+                <td>[title~="flower"]</td>
+                <td>Selects all elements with a title attribute that contains a space-separated list of words, one of which is "flower"
+                </td>
+              </tr>
+              <tr>
+                <td>CSS [attribute|="value"] Selector
+                </td>
+                <td>[lang|="en"]</td>
+                <td>Selects all elements with a lang attribute value starting with "en"
+                </td>
+              </tr>
+              <tr>
+                <td>CSS [attribute^="value"] Selector
+                </td>
+                <td>a[href^="https"]	</td>
+                <td>Selects all &lt;a&gt; elements with a href attribute value starting with "https"
+                </td>
+              </tr>
+
+              <tr>
+                <td>CSS [attribute$="value"] Selector
+                </td>
+                <td>a[href$=".pdf"]	</td>
+                <td>Selects all &lt;a&gt; elements with a href attribute value ending with ".pdf"
+                </td>
+              </tr>
+              <tr>
+                <td>CSS [attribute*="value"] Selector
+                </td>
+                <td>a[href*="w3schools"]</td>
+                <td>Selects all &lt;a&gt;elements with a href attribute value containing the substring "w3schools"
+                </td>
+              </tr>
+         </table>
+    
+</body>
+</html>

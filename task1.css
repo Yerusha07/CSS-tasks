@@ -1,0 +1,33 @@
+#id1 tr td {
+  background-color: rgb(246, 133, 105);
+  border-radius: 10%;
+  border-style: groove 9px;
+  padding: 5px;
+  text-align: center;
+  color: rgb(27, 28, 22);
+}
+table {
+  background-color: rgba(29, 21, 21, 0.227);
+}
+h1 {
+  color: rgb(90, 61, 61);
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px;
+}
+th {
+  border: groove 7px;
+  background-color: rgb(190, 228, 172);
+  border-radius: 30px;
+}
+
+table tr td {
+  background-color: rgb(209, 167, 248);
+  border-style: double;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+/*Applying Descendant selector  */
+/*👉    div table{
+        background-color: rgb(240, 136, 157);
+    }👈*/
