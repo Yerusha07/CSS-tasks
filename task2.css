@@ -1,0 +1,6 @@
+table, th, td, tr
+{
+border: inset 9px;
+text-align: center;
+background-color: rgb(249, 126, 163);
+}

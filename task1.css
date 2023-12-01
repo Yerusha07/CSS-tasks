@@ -1,0 +1,29 @@
+body{ 
+    background-image: url(https://tse4.explicit.bing.net/th?id=OIP.CvlHUefhxvr97Ug326vR-QHaEo&pid=Api&P=0&h=180://tse1.mm.bing.net/th?id=OIP.E_ECMoV2-_BOjjhyKYl3WgHaEK&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter: blur(100px);
+    }
+
+    h1{
+        text-decoration-line: underline;
+    }
+
+div{
+    color: rgb(155, 13, 13);
+    text-shadow: 1px 1px 1px;
+}
+
+b{
+   text-shadow: 1px 1px 4px rgb(130, 14, 231);
+}
+
+ul{
+    color: rgb(235, 111, 127);
+    text-shadow: 1px 1px 2px;
+    }
+
+strong{
+color: rgb(19, 13, 13);
+text-shadow: 1px 1px 3px;
+}
