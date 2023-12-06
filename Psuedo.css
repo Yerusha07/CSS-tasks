@@ -1,0 +1,53 @@
+/* Applying Pseudo classes */
+
+h1:hover{
+    color: blueviolet;
+}
+
+label:active{
+    background-color: aqua;
+}
+
+h2:hover{
+    background-color: yellow;
+}
+
+input:focus{
+    background-color: rgb(253, 253, 165);
+}
+input:invalid{
+    background-color: black;
+}
+p:first-child {
+    color: blue;
+    background-color: rgb(177, 177, 240);
+}
+textarea:focus{
+    background-color: orange;
+}
+input:checked{
+    color: chartreuse;
+}
+
+/* Applying Psuedo Elements */
+
+h1::first-letter{
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(210, 86, 9);
+}
+h2::first-line{
+    color: rgb(201, 163, 10);
+    }
+
+h2::before{
+    content: url(https://tse1.mm.bing.net/th?id=OIP.8NCJi4U6rGrD4_KS5FvLswAAAA&pid=Api&P=0&h=180);
+}
+p::first-line{
+    color: rgb(234, 15, 51);
+}
+::selection{
+    color: crimson;
+    background-color: rgb(238, 143, 201);
+    font-size: xx-large;
+}
