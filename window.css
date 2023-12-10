@@ -1,0 +1,88 @@
+body{
+    background-image: url(./Windows-10-Wallpaper-Location-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(230, 88, 66);
+    position: absolute;
+    left:71%;
+    top:20%;
+    border: solid 2px rgb(240, 221, 221);
+    transform: skewX(160deg);
+    box-shadow: -10px 10px 10px white;
+
+}
+#div2{
+
+    height: 100px;
+    width: 100px;
+    background-color: rgba(77, 153, 7, 0.692);
+    position: absolute;
+    left:79%;
+    top:20%;
+    transform: skewX(160deg);
+    border: solid 2px rgb(240, 221, 221);
+    box-shadow: -10px 10px 10px white;
+
+
+}
+
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(35, 39, 235, 0.692);
+    position: absolute;
+    left:68%;
+    top:35%;
+    border: solid 2px rgb(240, 221, 221);
+    transform: skewX(160deg);
+    box-shadow: -10px 10px 10px white;
+
+}
+
+#div4{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(209, 136, 19, 0.692);
+    position: absolute;
+    left:76%;
+    top:35%;
+    border: solid 2px rgb(240, 221, 221);
+    transform: skewX(160deg);
+    box-shadow: -10px 10px 10px white;
+
+}
+
+h1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left:46%;
+    top:25%;
+    text-shadow: 5px 5px 8px white; ;
+}
+
+h1:hover{
+    transform: scale(1.5,1.8);
+}
+
+#div1:hover{
+    background-color: rgba(77, 153, 7, 0.692);
+
+}
+#div2:hover{
+    background-color: rgba(35, 39, 235, 0.692);
+
+    }
+
+    #div3:hover{
+        background-color: rgba(209, 136, 19, 0.692);
+    }
+
+    #div4:hover{
+        background-color: rgb(230, 88, 66);
+
+    }
