@@ -1,0 +1,67 @@
+
+body{
+    background-color: rgb(23, 20, 23);
+ 
+}
+
+.loader{
+    
+ height:300px;
+ width: 300px;
+ position: absolute;
+ top:30%;
+ left:40%;
+ background-color: rgb(22, 20, 20);
+ border-radius: 50%;
+ border-top:  10px rgb(70, 65, 65);
+ border-left:  7px grey;
+ border-right:  15px rgb(66, 63, 63);
+ border-bottom: dotted 14px rgb(245, 234, 234);
+ animation: loader 2s ease infinite 2s;
+ box-shadow: 10px 10px 55px rgb(116, 102, 224);
+}
+
+h1{
+    position: absolute;
+    left: 42%;
+    top: 12%;
+    color: white;
+    text-shadow: 5px 5px 15px rgb(231, 117, 117);
+}
+
+
+@keyframes loader {
+    0%{
+        transform: rotate(0deg); 
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
